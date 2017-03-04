@@ -14,13 +14,11 @@ class NNet:
 
         for w in weightMatrices:
             if self.includeBias:
-                ys,xs = x.shaped
+                ys,xs = x.shape
                 z = np.ones((ys,1))
                 x = np.concatenate((z, x), axis=1)
             returnList.append(x)
             x = self.activationFunction.value(np.dot(x, w))
-            #ny, nx = x.shape
-            #returnList.append(x)
         return (x, returnList)
 
     def error(self, X, Y, weightsList = None, lambdaFactor = 0):
@@ -29,7 +27,6 @@ class NNet:
         if weightsList is not None:
             for w in weightsList:
                 reg += np.sum(np.power(w[:, 1:], 2))
-
         reg = (lambdaFactor * reg) / (2 * ys)
         return (np.sum(np.multiply(-Y, np.log(X)) - np.multiply(1-Y, np.log(1-X)))/ys) + reg
 
