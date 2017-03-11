@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0deabf2-6f5b-4b61-af74-d393d61e42f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NNetNew.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/NNetNoteBook-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/NNetNoteBook-checkpoint.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Test-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Test-checkpoint.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NNet.py" afterPath="$PROJECT_DIR$/NNet.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NNetNoteBook.ipynb" afterPath="$PROJECT_DIR$/NNetNoteBook.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test.ipynb" afterPath="$PROJECT_DIR$/Test.ipynb" />
     </list>
     <ignored path="mat-factorization-nnet.iws" />
