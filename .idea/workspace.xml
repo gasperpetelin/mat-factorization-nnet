@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0deabf2-6f5b-4b61-af74-d393d61e42f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testpycharm.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test.ipynb" afterPath="$PROJECT_DIR$/Test.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test2.ipynb" afterPath="$PROJECT_DIR$/test2.ipynb" />
     </list>
     <ignored path="mat-factorization-nnet.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -418,7 +416,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="2412" height="1318" extended-state="0" />
+    <frame x="-9" y="-9" width="2412" height="1318" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19632414" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
