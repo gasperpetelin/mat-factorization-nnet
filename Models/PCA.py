@@ -10,7 +10,7 @@ class PCANN:
     def __init__(self, layers=[400, 25, 10]):
         self.model = Sequential()
         self.layers = layers
-        self.sigmoid_range_scaler = MinMaxScaler(feature_range=(-1, 1))
+        self.sigmoid_range_scaler = MinMaxScaler(feature_range=(0, 1))
 
     def fit(self, X_test, y_test, X_train, y_train, epochs=200, batch_size=10):
 
